@@ -1,0 +1,14 @@
+// Colors
+$primary: #252B48;
+$secondary: #445069;
+$light: #8CABFF;
+
+
+
+$carousel-control-color: $primary;
+$carousel-indicator-active-bg: $light;
+$carousel-control-icon-width: 2rem;
+$carousel-indicator-height: 15px;
+$carousel-indicator-width: 15px;
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
