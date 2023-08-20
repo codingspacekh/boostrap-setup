@@ -9,10 +9,35 @@
 </head>
 
 <body>
-  <div class="container py-4 px-3 mx-auto">
-    <h1>Hello, Bootstrap and Vite!</h1>
-    <button class="btn btn-primary">Primary button</button>
-  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light shadow-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold lead" href="index.html">
+        <img src="./images/bb.svg" alt="" class="img-fluid w-25">
+        <span class="lead fw-bolder text-dark">BB Company</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn d-block btn-outline-secondary rounded-pill px-4 mx-4 fw-semibold" href="#contact">Contact
+              Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
 </body>
 
 </html>
